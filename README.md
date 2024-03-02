@@ -9,6 +9,7 @@
 2. 启动后端
 > go run ./scanblockdata.go
 
+>GOOS=windows GOARCH=amd64 go build -o bin/app-amd64.exe org.go
 
 > http://localhost:3005/
 
